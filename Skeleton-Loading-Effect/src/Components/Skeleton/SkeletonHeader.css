@@ -1,0 +1,32 @@
+
+.skeleton-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skeleton-logo{
+    width: 100px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.skeleton-list{
+    display: flex;
+    list-style: none;
+}
+
+.skeleton-item{
+    width: 100px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 5px;
+}

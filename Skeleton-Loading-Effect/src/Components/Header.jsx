@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <nav className="sticky">
+      <nav >
         <h3>Skeleton Loading</h3>
         <ul>
           <li>Home</li>

@@ -20,12 +20,13 @@ body{
 
 /* Header Css */
 nav{
+    margin: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2rem;
-    background-color: #333;
-    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #201e1e;
 }
 
 nav h1{
@@ -73,7 +74,7 @@ ul li a{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 70%;
 }
 
 .post h3{
@@ -100,6 +101,16 @@ ul li a{
 /* blogPosts Css */
 
 
+
+/* Skeleton css */
+
+/* Header Skeleton code  */
+
+
+/* Header Skeleton code  */
+
+
+/* Skeleton css */
  
 
  
