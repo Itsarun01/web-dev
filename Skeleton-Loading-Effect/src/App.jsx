@@ -4,6 +4,7 @@ import Data from "./Components/Data";
 import BlogPosts from "./Components/BlogPosts";
 import SkeletonHeader from "./Components/Skeleton/SkeletonHeader";
 import {useEffect, useState} from "react";
+import BlogPostsSkeleton from "./Components/Skeleton/BlogPostsSkeleton";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -19,11 +20,17 @@ function App() {
     <>
       <div className="App">
         {loading ? <SkeletonHeader /> : <Header />}
-        {Data.map((post, index) => {
-          return (
-            <BlogPosts key={index} title={post.title} content={post.content} />
-          );
-        })}
+        {loading
+          ? Array.from({length: 10}).map((_, index) => (
+              <BlogPostsSkeleton key={index} />
+            ))
+          : Data.map((post, index) => (
+              <BlogPosts
+                key={index}
+                title={post.title}
+                content={post.content}
+              />
+            ))}
       </div>
     </>
   );
