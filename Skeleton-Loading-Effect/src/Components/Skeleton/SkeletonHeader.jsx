@@ -1,5 +1,6 @@
 import "./SkeletonHeader.css";
 const SkeletonHeader = () => {
+  
   return (
     <>
       <header className="skeleton-nav">
